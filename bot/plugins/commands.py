@@ -13,7 +13,7 @@ db = Database()
 async def start(bot, update):
     
     try:
-        file_uid = update.command[1]
+        file_uid = update.command[1
     except IndexError:
         file_uid = False
     
